@@ -1,2 +1,2 @@
 # lyrahosting
-html, css, js plaint
+html, css, js plain
