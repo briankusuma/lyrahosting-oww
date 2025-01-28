@@ -134,6 +134,18 @@ section{
     grid-row-gap: 0px;
     justify-items: center;
 }
+.ornament-gradiet{
+    z-index: -1;
+    background-color: #A0F;
+    opacity: 0.13;
+    filter: blur(140px);
+    width: 831.166px;
+    height: 805.596px;
+    transform: rotate(-132.302deg);
+    position: absolute;
+    left: -474px;
+    top: 136px;
+}
 /* sec-dicover */
 .con-discover{
     padding-block: 80px;
@@ -146,6 +158,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .discover-layout_text{
     width: 100%;
@@ -175,4 +188,116 @@ section{
 
 .discover-tab{
     margin-top: 48px;
+}
+
+.discover-tab-head{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 8px 0px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.00) 100%);
+}
+.discover-btn-tab-head{
+    display: flex;
+    height: 48px;
+    padding: 24px 24px 24px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 128%; /* 20.48px */
+    letter-spacing: 0.16px;
+    word-wrap: normal;
+
+}
+.discover-btn-tab-head.active{
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
+    border-right: 2px solid rgb(160, 0, 255);
+    border-left: 2px solid rgb(30, 80, 255);
+}
+.gradient-border {
+    background-image: radial-gradient(circle at 100% 100%, transparent 31px, #1e50ff 31px, #1e50ff 32px, transparent 32px), linear-gradient(to right, #1e50ff, #aa00ff), radial-gradient(circle at 0% 100%, transparent 31px, #aa00ff 31px, #aa00ff 32px, transparent 32px), linear-gradient(to bottom, #aa00ff, #aa00ff), radial-gradient(circle at 0% 0%, transparent 31px, #aa00ff 31px, #aa00ff 32px, transparent 32px), linear-gradient(to left, #aa00ff, #1e50ff), radial-gradient(circle at 100% 0%, transparent 31px, #1e50ff 31px, #1e50ff 32px, transparent 32px), linear-gradient(to top, #1e50ff, #1e50ff);
+    background-size: 32px 32px, calc(100% - 64px) 1px, 32px 32px, 1px calc(100% - 64px);
+    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+    background-repeat: no-repeat;
+    }
+.btn-cta-tab{
+    display: flex;
+    padding: 22px 28px 22px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 128%; /* 20.48px */
+    letter-spacing: 0.16px;
+    border: none;
+}
+
+.discover-tab-body{
+    margin-top: 126px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tab-body-text{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.tab-body-text_title{
+    color: #E0E0E0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 128%; /* 40.96px */
+    letter-spacing: -0.32px;
+}
+
+.tab-body-text_dsc{
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+    margin-block: 24px;
+}
+.tab-body-image{
+    width: 50%;
+}
+.body-text-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+.body-text-project_service{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tab-body-image > img{
+    width: 604px;
+    height: 480px;
 }
