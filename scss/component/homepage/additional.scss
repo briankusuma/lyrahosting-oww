@@ -1,0 +1,66 @@
+.sec-additional{
+    .con-additional{
+        padding-block: 80px;
+        display: flex;
+        justify-content: center;
+        .additional-layout{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            border-radius: 48px;
+            border: 4px solid rgba(255, 255, 255, 0.03);
+            background: linear-gradient(78deg, rgba(30, 80, 255, 0.08) -12.1%, rgba(170, 0, 255, 0.08) 80.03%);
+            backdrop-filter: blur(16px);
+            padding: 64px;
+            align-self: stretch;
+            &_text{
+                width: 100%;
+                max-width: 355px;
+                &-title{
+                    color: #FFF;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 128%; /* 40.96px */
+                    letter-spacing: -0.32px;
+                }
+                &-dsc{
+                    color: rgba(255, 255, 255, 0.72);
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                    letter-spacing: 0.16px;
+                    margin-top: 24px;
+                    margin-bottom: 48px;
+                }
+            .btn-cta-addional{
+                display: flex;
+                padding: 22px 28px 22px 32px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border-radius: 100px;
+                background-color: transparent;
+                color: #FFF;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 128%; /* 20.48px */
+                letter-spacing: 0.16px;
+                border: none;
+                }
+            }
+            &_img{
+                img{
+                    width: 600px;
+                    height: auto;
+                }
+
+            }
+        }
+    }
+}
