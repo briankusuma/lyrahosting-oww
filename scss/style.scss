@@ -1,0 +1,36 @@
+@use "homepage.scss";
+@use "hosting-page.scss";
+
+@font-face {
+    font-family: 'Satosi';
+    src: url('/assets/font/Satosi-Variable.ttf') format('ttf'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('/assets/font/Satoshi-Variable.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body{
+    background-color: #080808;
+    color: #fff;
+    font-family: 'Satosi';
+    overflow-x: hidden;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    padding-inline: 104px;
+    margin: auto;
+}

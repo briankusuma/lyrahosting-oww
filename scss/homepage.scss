@@ -1,0 +1,15 @@
+@use "component/homepage/header.scss";
+@use "component/homepage/discover.scss";
+
+.ornament-gradiet{
+    z-index: -1;
+    background-color: #A0F;
+    opacity: 0.13;
+    filter: blur(140px);
+    width: 831.166px;
+    height: 805.596px;
+    transform: rotate(-132.302deg);
+    position: absolute;
+    left: -474px;
+    top: 136px;
+}
