@@ -64,3 +64,29 @@
         }
     }
 }
+
+.ornament-gradiet-additional-1{
+    background: #A0F;
+    // background: white;
+    opacity: 0.13;
+    filter: blur(140px);
+    width: 831.166px;
+    height: 805.596px;
+    transform: rotate(-132.302deg);
+    position: absolute;
+    right: -316.233px;
+    top: 1300px
+}
+
+.ornament-gradiet-additional-2{
+    background: #1E50FF;
+    opacity: 0.19;
+    filter: blur(140px);
+    width: 838.824px;
+    height: 870.21px;
+    transform: rotate(175.163deg);
+    position: absolute;
+    left: -326.001px;
+    top: 2214px;
+    z-index: -1;
+}
