@@ -1,0 +1,40 @@
+.sec-lyrahosting{
+    .con-lyrahosting{
+        padding-block: 80px;
+        display: flex;
+        justify-content: center;
+        .lyrahosting-layout{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .lyrahosting{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+                max-width: 781px;
+                width: 100%;
+                &_title{
+                    text-align: center;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 128%; /* 71.68px */
+                    letter-spacing: -0.56px;
+                }
+                &_dsc{
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                    letter-spacing: 0.16px;
+                }
+            }
+        }
+
+        }
+
+    }

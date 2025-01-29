@@ -435,6 +435,175 @@
   background-blend-mode: overlay;
 }
 
+.sec-lyrahosting .con-lyrahosting {
+  padding-block: 80px;
+  display: flex;
+  justify-content: center;
+}
+.sec-lyrahosting .con-lyrahosting .lyrahosting-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-lyrahosting .con-lyrahosting .lyrahosting-layout .lyrahosting {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 781px;
+  width: 100%;
+}
+.sec-lyrahosting .con-lyrahosting .lyrahosting-layout .lyrahosting_title {
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 71.68px */
+  letter-spacing: -0.56px;
+}
+.sec-lyrahosting .con-lyrahosting .lyrahosting-layout .lyrahosting_dsc {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+
+.sec-lightning .con-lightning {
+  padding-block: 80px;
+  display: flex;
+  justify-content: center;
+}
+.sec-lightning .con-lightning .lightning-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-lightning .con-lightning .lightning-layout .lightning {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 781px;
+  width: 100%;
+}
+.sec-lightning .con-lightning .lightning-layout .lightning_title {
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 71.68px */
+  letter-spacing: -0.56px;
+}
+.sec-lightning .con-lightning .lightning-layout .lightning_dsc {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+.sec-lightning .con-lightning .lightning-tab {
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-lightning .con-lightning .lightning-tab-head {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 8px 0px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0) 100%);
+}
+.sec-lightning .con-lightning .lightning-tab-head_btn {
+  display: flex;
+  height: 48px;
+  padding: 24px 24px 24px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 20.48px */
+  letter-spacing: 0.16px;
+  word-wrap: normal;
+}
+.sec-lightning .con-lightning .lightning-tab-head .active {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
+  border-right: 2px solid rgb(160, 0, 255);
+  border-left: 2px solid rgb(30, 80, 255);
+}
+.sec-lightning .con-lightning .lightning-tab-body {
+  margin-top: 126px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 130px;
+}
+.sec-lightning .con-lightning .lightning-tab-body_text {
+  width: 100%;
+  max-width: 500px;
+}
+.sec-lightning .con-lightning .lightning-tab-body .tab-lightning_title {
+  color: #E0E0E0;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 40.96px */
+  letter-spacing: -0.32px;
+}
+.sec-lightning .con-lightning .lightning-tab-body .tab-lightning_dsc {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+  margin-block: 24px;
+}
+.sec-lightning .con-lightning .lightning-tab-body .tab-lightning .btn-cta-tab {
+  display: flex;
+  padding: 22px 28px 22px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 20.48px */
+  letter-spacing: 0.16px;
+  border: none;
+}
+.sec-lightning .con-lightning .lightning-tab-body_image {
+  width: 50%;
+}
+.sec-lightning .con-lightning .lightning-tab-body_image img {
+  width: 604px;
+  height: 480px;
+}
+
 .ornament-gradiet {
   z-index: -1;
   background-color: #A0F;

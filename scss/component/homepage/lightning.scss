@@ -1,0 +1,137 @@
+.sec-lightning{
+    .con-lightning{
+        padding-block: 80px;
+        display: flex;
+        justify-content: center;
+        .lightning-layout{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .lightning{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+                max-width: 781px;
+                width: 100%;
+                &_title{
+                    text-align: center;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 128%; /* 71.68px */
+                    letter-spacing: -0.56px;
+                }
+                &_dsc{
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                    letter-spacing: 0.16px;
+                }
+            }
+        }
+        .lightning-tab{
+            margin-top: 48px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-head{
+                flex-wrap: wrap;
+                display: flex;
+                padding: 8px;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                gap: 8px 0px;
+                border-radius: 100px;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.00) 100%);
+                &_btn{
+                    display: flex;
+                    height: 48px;
+                    padding: 24px 24px 24px 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    border-radius: 100px;
+                    background-color: transparent;
+                    border: none;
+                    color: rgba(255, 255, 255, 0.72);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 128%; /* 20.48px */
+                    letter-spacing: 0.16px;
+                    word-wrap: normal;
+                    }
+                .active{
+                    border: 1px solid rgba(255, 255, 255, 0.16);
+                    background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
+                    border-right: 2px solid rgb(160, 0, 255);
+                    border-left: 2px solid rgb(30, 80, 255);
+                    }
+                }
+            &-body{
+                margin-top: 126px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap: 130px;
+                &_text{
+                    width: 100%;
+                    max-width: 500px;
+                }
+                .tab-lightning{
+                    &_title{
+                        color: #E0E0E0;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 128%; /* 40.96px */
+                        letter-spacing: -0.32px;
+                    }
+                    &_dsc{
+                        color: rgba(255, 255, 255, 0.72);
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 160%; /* 25.6px */
+                        letter-spacing: 0.16px;
+                        margin-block: 24px;
+                    }
+                    .btn-cta-tab{
+                        display: flex;
+                        padding: 22px 28px 22px 32px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 8px;
+                        border-radius: 100px;
+                        background-color: transparent;
+                        color: #FFF;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 128%; /* 20.48px */
+                        letter-spacing: 0.16px;
+                        border: none;
+                    }
+                }
+                &_image{
+                    width: 50%;
+                    img{
+                        width: 604px;
+                        height: 480px;
+                    }
+                }
+            }
+            }
+
+        }
+
+    }
