@@ -1,0 +1,98 @@
+.sec-faq{
+    .con-faq{
+        padding-block: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .faq-content-body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 64px;
+            &_text{
+                width: 100%;
+                max-width: 500px;
+            }
+            .content-faq{
+                &_title{
+                    color: #FFF;
+                    font-family: Satoshi;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 128%; /* 71.68px */
+                    letter-spacing: -0.56px;
+                }
+                &_dsc{
+                    color: rgba(255, 255, 255, 0.72);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                    letter-spacing: 0.16px;
+                    margin-block: 24px;
+                }
+                .btn-cta-content{
+                    display: flex;
+                    padding: 22px 28px 22px 32px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    border-radius: 100px;
+                    background-color: transparent;
+                    color: #FFF;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 128%; /* 20.48px */
+                    letter-spacing: 0.16px;
+                    border: none;
+                }
+            }
+            &_image{
+                width: 50%;
+                img{
+                    width: 604px;
+                    height: 480px;
+                }
+            }
+            }
+        .faq-container {
+            .faq-item {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                margin-block: 48px;
+                &_question {
+                    color: #FFF;
+                    font-family: Satoshi;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 128%; /* 40.96px */
+                    letter-spacing: -0.32px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    }
+                    &_answer{
+                        color: rgba(255, 255, 255, 0.72);
+                        font-family: Satoshi;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 180%; /* 25.6px */
+                        letter-spacing: 0.16px;
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 0.3s ease-in-out;
+                    }
+
+                }
+
+            }
+        }
+    }

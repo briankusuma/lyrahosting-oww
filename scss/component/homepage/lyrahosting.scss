@@ -34,7 +34,56 @@
                 }
             }
         }
+        .logo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            width: 100%;
+            margin-top: 64px;
+            &-payment{
+                width: 100%;
+                max-width: 395px;
+                gap: 24px;
+                display: flex;
+                flex-direction: column;
+                &_title{
+                    color: rgba(255, 255, 255, 0.72);
+                    leading-trim: both;
+                    text-edge: cap;
+                    font-family: Satoshi;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 160%; /* 28.8px */
+                    letter-spacing: 0.18px;
+                }
+                &_item{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 40px;
+                }
 
+            }
+            &-crypto{
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                flex-direction: column;
+                &_title{
+                    @extend .logo-payment_title;
+                }
+                &_item{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 40px;
+
+                }
+            }
         }
 
     }
+}

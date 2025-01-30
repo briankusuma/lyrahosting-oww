@@ -1,0 +1,90 @@
+.sec-lost{
+    .con-lost{
+        padding-block: 80px;
+        display: flex;
+        justify-content: center;
+        .lost-layout{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .lost{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+                max-width: 781px;
+                width: 100%;
+                &_title{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Satoshi;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 128%; /* 71.68px */
+                    letter-spacing: -0.56px;
+                }
+            }
+        }
+        .lost-layout_card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 32px;
+            margin-top: 64px;
+            .content{
+                &-card{
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 394px;
+                    &_title{
+                        color: #FFF;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 128%; /* 40.96px */
+                        letter-spacing: -0.32px;
+                        margin-top: 40px;
+                        margin-bottom: 24px;
+                        text-align: center;
+                    }
+                    &_dsc{
+                        color: rgba(255, 255, 255, 0.72);
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 160%; /* 25.6px */
+                        letter-spacing: 0.16px;
+                        text-align: center;
+                        margin-bottom: 32px;
+                    }
+                    img{
+                        width: 160px;
+                    }
+                    .btn-cta-content{
+                        display: flex;
+                        padding: 22px 28px 22px 32px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 8px;
+                        border-radius: 100px;
+                        background-color: transparent;
+                        color: #FFF;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 128%; /* 20.48px */
+                        letter-spacing: 0.16px;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
