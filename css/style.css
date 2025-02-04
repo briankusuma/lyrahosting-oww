@@ -165,11 +165,21 @@
   word-wrap: normal;
   cursor: pointer;
 }
+.sec-discover .con-discover .discover-layout .discover-tab-head_btn:hover {
+  color: white;
+}
+.sec-discover .con-discover .discover-layout .discover-tab-head_btn:hover svg path {
+  stroke-opacity: 1;
+}
 .sec-discover .con-discover .discover-layout .discover-tab-head .active {
   border: 1px solid rgba(255, 255, 255, 0.16);
   background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
   border-right: 2px solid rgb(160, 0, 255);
   border-left: 2px solid rgb(30, 80, 255);
+  color: white;
+}
+.sec-discover .con-discover .discover-layout .discover-tab-head .active svg path {
+  stroke-opacity: 1;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body {
   display: none;

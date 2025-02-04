@@ -66,11 +66,26 @@
                     word-wrap: normal;
                     cursor: pointer;
                     }
+                    &_btn:hover{
+                        color: white;
+                        svg{
+                            path{
+                                stroke-opacity: 1;
+                            }
+                        }
+                        }
                 .active{
                     border: 1px solid rgba(255, 255, 255, 0.16);
                     background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
                     border-right: 2px solid rgb(160, 0, 255);
                     border-left: 2px solid rgb(30, 80, 255);
+                    color: white;
+                    svg{
+                        path{
+                            stroke-opacity: 1;
+
+                        }
+                    }
                     }
                 }
             &-body{
