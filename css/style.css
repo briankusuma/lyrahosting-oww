@@ -163,6 +163,7 @@
   line-height: 128%; /* 20.48px */
   letter-spacing: 0.16px;
   word-wrap: normal;
+  cursor: pointer;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-head .active {
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -171,10 +172,7 @@
   border-left: 2px solid rgb(30, 80, 255);
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body {
-  margin-top: 126px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: none;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body_text {
   width: 100%;
@@ -202,21 +200,27 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 32px;
-  margin-bottom: 48px;
+  max-width: 440px;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body .tab-discover_serviceProject .serviceProject-wrap {
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 12px;
+  width: 100%;
+  max-width: 242px;
 }
-.sec-discover .con-discover .discover-layout .discover-tab-body .tab-discover_serviceProject .serviceProject-text {
+.sec-discover .con-discover .discover-layout .discover-tab-body .tab-discover_serviceProject .serviceProject-wrap_text {
   color: #FFF;
+  font-family: Satoshi;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 160%; /* 28.8px */
   letter-spacing: 0.18px;
+}
+.sec-discover .con-discover .discover-layout .discover-tab-body .tab-discover .gap-services {
+  margin-block: 16px;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body .tab-discover .btn-cta-tab {
   display: flex;
@@ -233,6 +237,7 @@
   line-height: 128%; /* 20.48px */
   letter-spacing: 0.16px;
   border: none;
+  margin-top: 48px;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body_image {
   width: 50%;
@@ -240,6 +245,13 @@
 .sec-discover .con-discover .discover-layout .discover-tab-body_image img {
   width: 604px;
   height: 480px;
+}
+.sec-discover .con-discover .discover-layout .discover-tab .tab-content.active {
+  margin-top: 126px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sec-additional .con-additional {
