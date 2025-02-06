@@ -457,7 +457,22 @@
   background-repeat: no-repeat; /* Tidak mengulang */
   background-blend-mode: overlay;
 }
+.sec-whyLyra .ornament-gradient-whyLyra {
+  background: #1E50FF;
+  opacity: 0.19;
+  filter: blur(140px);
+  position: absolute;
+  right: -376.252px;
+  top: 2971px;
+  z-index: -1;
+  width: 942.194px;
+  height: 977.449px;
+  transform: rotate(175.163deg);
+}
 
+.sec-lyrahosting {
+  position: relative;
+}
 .sec-lyrahosting .con-lyrahosting {
   padding-block: 80px;
   display: flex;
@@ -512,8 +527,6 @@
 }
 .sec-lyrahosting .con-lyrahosting .logo-payment_title, .sec-lyrahosting .con-lyrahosting .logo-crypto_title {
   color: rgba(255, 255, 255, 0.72);
-  leading-trim: both;
-  text-edge: cap;
   font-family: Satoshi;
   font-size: 18px;
   font-style: normal;
@@ -538,6 +551,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
+}
+.sec-lyrahosting .ornament-gradiet-lyrahosting {
+  background: #A0F;
+  opacity: 0.13;
+  filter: blur(140px);
+  position: absolute;
+  left: -355px;
+  width: 831.166px;
+  height: 805.596px;
+  transform: rotate(-132.302deg);
+  z-index: -1;
 }
 
 .sec-lightning .con-lightning {
@@ -672,6 +696,9 @@
   height: 480px;
 }
 
+.sec-faq {
+  position: relative;
+}
 .sec-faq .con-faq {
   padding-block: 80px;
   display: flex;
@@ -762,7 +789,32 @@
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
+.sec-faq .ornament-gradiet-faq-up {
+  width: 831.166px;
+  height: 805.596px;
+  position: absolute;
+  right: -559.232px;
+  background: #A0F;
+  opacity: 0.13;
+  filter: blur(140px);
+  z-index: -1;
+}
+.sec-faq .ornament-gradiet-faq-bottom {
+  width: 838.824px;
+  height: 870.21px;
+  transform: rotate(175.163deg);
+  position: absolute;
+  left: -515px;
+  top: 450px;
+  background: #1E50FF;
+  opacity: 0.19;
+  filter: blur(140px);
+  z-index: -1;
+}
 
+.sec-lost {
+  position: relative;
+}
 .sec-lost .con-lost {
   padding-block: 80px;
   display: flex;
@@ -846,6 +898,18 @@
   line-height: 128%; /* 20.48px */
   letter-spacing: 0.16px;
   border: none;
+}
+.sec-lost .ornament-gradiet-lost {
+  width: 838.824px;
+  height: 870.21px;
+  transform: rotate(175.163deg);
+  position: absolute;
+  right: -386.208px;
+  bottom: 300px;
+  background: #1E50FF;
+  opacity: 0.19;
+  filter: blur(140px);
+  z-index: -1;
 }
 
 .ornament-gradiet {
@@ -1080,11 +1144,9 @@
   }
 }
 .sec-footer {
-  background-image: url("/assets/img/footer-star.svg");
-  background-size: 1440px 700px;
-  background-position: bottom;
-  background-position-y: bottom;
-  background-repeat: no-repeat;
+  background: rgba(255, 255, 255, 0.02) url("/assets/img/ornament-bg-footer.svg") no-repeat bottom/cover;
+  border-radius: 48px 48px 0px 0px;
+  border-top: 2px solid rgba(255, 255, 255, 0.03);
   position: relative;
 }
 .sec-footer .con-footer {

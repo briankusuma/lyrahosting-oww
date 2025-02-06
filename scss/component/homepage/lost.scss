@@ -1,4 +1,5 @@
 .sec-lost{
+    position: relative;
     .con-lost{
         padding-block: 80px;
         display: flex;
@@ -86,5 +87,17 @@
         }
 
 
+    }
+    .ornament-gradiet-lost{
+        width: 838.824px;
+        height: 870.21px;
+        transform: rotate(175.163deg);
+        position: absolute;
+        right: -386.208px;
+        bottom: 300px;
+        background: #1E50FF;
+        opacity: 0.19;
+        filter: blur(140px);
+        z-index: -1;
     }
 }

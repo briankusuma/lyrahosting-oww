@@ -1,9 +1,7 @@
 .sec-footer{
-    background-image: url('/assets/img/footer-star.svg');
-    background-size: 1440px 700px;
-    background-position: bottom;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
+    background: rgba(255, 255, 255, 0.02) url('/assets/img/ornament-bg-footer.svg') no-repeat bottom / cover;
+    border-radius: 48px 48px 0px 0px;
+    border-top: 2px solid rgba(255, 255, 255, 0.03);
     position: relative;
     .con-footer{
         padding-block: 80px;
