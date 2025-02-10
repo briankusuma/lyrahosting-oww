@@ -1,0 +1,71 @@
+.sec-control{
+    position: relative;
+    .con-control{
+        padding-block: 80px;
+        display: flex;
+        justify-content: center;
+        .control-layout{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .control{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+                max-width: 1022px;
+                width: 100%;
+                margin-bottom: 48px;
+                &_title{
+                    text-align: center;
+                    font-size: 56px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 128%; /* 71.68px */
+                    letter-spacing: -0.56px;
+                }
+                &_dsc{
+                    color: rgba(255, 255, 255, 0.72);
+                    text-align: center;
+                    font-family: Satoshi;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                    letter-spacing: 0.16px;
+                }
+            }
+        }
+        .btn-cta-control{
+            display: flex;
+            padding: 22px 28px 22px 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 100px;
+            background-color: transparent;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 128%; /* 20.48px */
+            letter-spacing: 0.16px;
+            border: none;
+
+        }
+
+    }
+    .ornament-gradiet-lyrahosting{
+        background: #A0F;
+        opacity: 0.13;
+        filter: blur(140px);
+        position: absolute;
+        left: -355px;
+        width: 831.166px;
+        height: 805.596px;
+        transform: rotate(-132.302deg);
+        z-index: -1;
+    }
+}

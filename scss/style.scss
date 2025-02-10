@@ -1,4 +1,5 @@
 @use "homepage.scss";
+@use "vps.scss";
 @use "hosting-page.scss";
 @use "nav.scss";
 @use "footer";
@@ -46,7 +47,28 @@ section{
     padding-inline: 104px;
     margin: auto;
 }
+
 h1{
     font-family: 'Satoshi', sans-serif;
     font-weight: 900;
+}
+
+.ornament-gradiet{
+    z-index: -1;
+    background-color: #A0F;
+    opacity: 0.13;
+    filter: blur(140px);
+    width: 831.166px;
+    height: 805.596px;
+    transform: rotate(-132.302deg);
+    position: absolute;
+    left: -474px;
+    top: 136px;
+}
+
+.gradient-border {
+    background-image: radial-gradient(circle at 100% 100%, transparent 31px, #1e50ff 31px, #1e50ff 32px, transparent 32px), linear-gradient(to right, #1e50ff, #aa00ff), radial-gradient(circle at 0% 100%, transparent 31px, #aa00ff 31px, #aa00ff 32px, transparent 32px), linear-gradient(to bottom, #aa00ff, #aa00ff), radial-gradient(circle at 0% 0%, transparent 31px, #aa00ff 31px, #aa00ff 32px, transparent 32px), linear-gradient(to left, #aa00ff, #1e50ff), radial-gradient(circle at 100% 0%, transparent 31px, #1e50ff 31px, #1e50ff 32px, transparent 32px), linear-gradient(to top, #1e50ff, #1e50ff);
+    background-size: 32px 32px, calc(100% - 64px) 1px, 32px 32px, 1px calc(100% - 64px);
+    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+    background-repeat: no-repeat;
 }

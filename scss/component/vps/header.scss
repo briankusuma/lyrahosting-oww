@@ -20,7 +20,7 @@
             position: relative;
             &_text{
                 width: 100%;
-                max-width: 500px;
+                max-width: 600px;
                 &-display{
                     color: #FFF;
                     font-family: Satoshi;
@@ -70,7 +70,7 @@
             &_img{
                 position: relative;
                 img{
-                    width: 1200px;
+                    width: 1000px;
                     position: absolute;
                     z-index: -1;
                     top: -200px;
