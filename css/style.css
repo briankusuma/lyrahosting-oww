@@ -214,7 +214,6 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 440px;
 }
 .sec-discover .con-discover .discover-layout .discover-tab-body .tab-discover_serviceProject .serviceProject-wrap {
   display: flex;
@@ -1507,6 +1506,14 @@
   position: absolute;
   left: -474px;
   top: 136px;
+}
+
+.con-hero-optimized {
+  padding-top: 64px !important;
+}
+
+.optimized-dicover {
+  max-width: 982px !important;
 }
 
 .sec-navbar .con-navbar {
