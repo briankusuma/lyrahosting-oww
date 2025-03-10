@@ -1,0 +1,13 @@
+<svg width="67" height="66" viewBox="0 0 67 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="40.0005" cy="27" r="27" fill="url(#paint0_linear_2156_699)"/>
+<foreignObject x="-18.9995" y="-17" width="102" height="102"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(12px);clip-path:url(#bgblur_0_2156_699_clip_path);height:100%;width:100%"></div></foreignObject><circle data-figma-bg-blur-radius="24" cx="32.0005" cy="34" r="27" fill="white" fill-opacity="0.05"/>
+<foreignObject x="-7.83301" y="-6.16675" width="80.3335" height="80.3245"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6px);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="12" d="M58.9607 35.4663C58.987 34.9808 59.0003 34.4919 59.0003 33.9999C59.0003 19.2723 47.0613 7.33325 32.3337 7.33325C17.6061 7.33325 5.66699 19.2723 5.66699 33.9999C5.66699 48.4943 17.231 60.2879 31.6363 60.6576M32.3337 17.9999V33.9999L42.3027 38.9844" stroke="white" stroke-opacity="0.24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<foreignObject x="24.9995" y="32" width="45.3335" height="40"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(6px);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="12" d="M38.9995 52.6667L44.3328 58L56.3328 46" stroke="white" stroke-opacity="0.72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<clipPath id="bgblur_0_2156_699_clip_path" transform="translate(18.9995 17)"><circle cx="32.0005" cy="34" r="27"/>
+</clipPath><linearGradient id="paint0_linear_2156_699" x1="13.0005" y1="90.6429" x2="70.8262" y2="78.0928" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1E50FF"/>
+<stop offset="1" stop-color="#AA00FF"/>
+</linearGradient>
+</defs>
+</svg>
