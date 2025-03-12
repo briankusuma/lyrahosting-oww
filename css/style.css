@@ -1433,6 +1433,10 @@
   padding-inline: 10px;
 }
 
+.bitcoin-hosting-img img {
+  margin-top: 100px;
+}
+
 .con-hero-optimized {
   padding-top: 64px !important;
 }
