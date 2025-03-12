@@ -1437,6 +1437,10 @@
   margin-top: 100px;
 }
 
+.bitcoin-layout-text {
+  max-width: 700px !important;
+}
+
 .con-hero-optimized {
   padding-top: 64px !important;
 }
