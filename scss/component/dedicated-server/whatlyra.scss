@@ -1,0 +1,42 @@
+.tab-dedicated_dsc{
+    display: flex;
+    flex-direction: column;
+    .tab-discover_number{
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 128%; /* 40.96px */
+        letter-spacing: -0.32px;
+        span{
+            color: rgba(255, 255, 255, 0.72);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%; /* 25.6px */
+            letter-spacing: 0.16px;
+        }
+    }
+    .tab-discover_discoun{
+        color: rgba(255, 255, 255, 0.72);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+        text-decoration-line: strikethrough;
+    }
+    .tab-discover_package{
+        color: rgba(255, 255, 255, 0.72);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+        margin-top: 24px;
+    }
+}
