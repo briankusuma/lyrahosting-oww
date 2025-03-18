@@ -1492,6 +1492,107 @@
   margin-top: 24px;
 }
 
+.sec-dedicated .con-dedicated {
+  padding-block: 80px;
+  display: flex;
+  justify-content: center;
+}
+.sec-dedicated .con-dedicated .dedicated-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  width: 100%;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_text-title {
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 71.68px */
+  letter-spacing: -0.56px;
+  width: 100%;
+  max-width: 1022px;
+  text-align: center;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_text-wrap {
+  width: 100%;
+  max-width: 816px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_text-wrap-dsc {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+  text-align: center;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_content .content-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px 40px 40px;
+  border-radius: 40px;
+  max-width: 400px;
+  width: 100%;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_content .content-card_title {
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 40.96px */
+  letter-spacing: -0.32px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_content .content-card img {
+  width: 200px;
+}
+.sec-dedicated .con-dedicated .dedicated-layout_content .hover {
+  border: 4px solid rgba(170, 0, 255, 0.08);
+  background: linear-gradient(78deg, rgba(30, 80, 255, 0.08) -12.1%, rgba(170, 0, 255, 0.08) 80.03%), url("/assets/img/ornament-star.svg");
+  background-position: bottom right; /* Posisi di pojok kanan bawah */
+  background-repeat: no-repeat; /* Tidak mengulang */
+  background-blend-mode: overlay;
+}
+.sec-dedicated .ornament-gradient-whyLyra {
+  background: #1E50FF;
+  opacity: 0.19;
+  filter: blur(140px);
+  position: absolute;
+  right: -376.252px;
+  top: 2971px;
+  z-index: -1;
+  width: 942.194px;
+  height: 977.449px;
+  transform: rotate(175.163deg);
+}
+
 .sec-navbar .con-navbar {
   display: flex;
   flex-direction: row;
