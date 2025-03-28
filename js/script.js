@@ -55,3 +55,20 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+// howmuch slider
+
+const slider = document.getElementById("hashRateSlider");
+const valueBubble = document.getElementById("valueBubble");
+
+function updateBubble() {
+    const value = parseInt(slider.value);
+    valueBubble.innerText = value;
+    
+    const percent = ((value - slider.min) / (slider.max - slider.min)) * 100;
+    valueBubble.style.left = `calc(${percent}% - 10px)`;
+    valueBubble.style.display = "block";
+}
+
+slider.addEventListener("input", updateBubble);
+updateBubble();
