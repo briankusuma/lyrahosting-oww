@@ -2039,6 +2039,115 @@
   justify-content: center;
 }
 
+.about-us_img img {
+  width: 1000px;
+  position: absolute;
+  z-index: -1;
+  top: -100px !important;
+  right: -200px !important;
+}
+
+.con-constanly {
+  padding-top: 0px !important;
+}
+
+.about-us_constanly {
+  display: flex;
+  flex-direction: column !important;
+  gap: 32px !important;
+}
+.about-us_constanly .whyLyra-layout_text-title {
+  max-width: 1022px !important;
+  text-align: center !important;
+}
+.about-us_constanly .whyLyra-layout_text-wrap-dsc {
+  width: 814px !important;
+  text-align: center !important;
+}
+
+.sec-lost .con-lost .lost-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 64px;
+  width: 100%;
+}
+.sec-lost .con-lost .lost-content_title h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 71.68px */
+  letter-spacing: -0.56px;
+}
+.sec-lost .con-lost .lost-content_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.sec-lost .con-lost .lost-content_card .card_lost {
+  width: 100%;
+  max-width: 395px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.sec-lost .con-lost .lost-content_card .card_lost-img img {
+  width: 160px;
+  height: 160px;
+}
+.sec-lost .con-lost .lost-content_card .card_lost-text {
+  width: 100%;
+  max-width: 395px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.sec-lost .con-lost .lost-content_card .card_lost-text h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 40.96px */
+  letter-spacing: -0.32px;
+}
+.sec-lost .con-lost .lost-content_card .card_lost-text span {
+  color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+.sec-lost .con-lost .lost-content_card .card_lost .btn-card_lost {
+  display: flex;
+  padding: 22px 28px 22px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 20.48px */
+  letter-spacing: 0.16px;
+  border: none;
+}
+
 .sec-navbar .con-navbar {
   display: flex;
   flex-direction: row;

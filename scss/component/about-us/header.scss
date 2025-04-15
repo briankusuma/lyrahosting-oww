@@ -1,0 +1,26 @@
+.about-us_img{
+    img{
+        width: 1000px;
+        position: absolute;
+        z-index: -1;
+        top: -100px!important;
+        right: -200px!important;
+    }
+
+}
+.con-constanly{
+padding-top: 0px!important;
+}
+.about-us_constanly{
+    display: flex;
+    flex-direction: column!important;
+    gap: 32px!important;
+    .whyLyra-layout_text-title{
+        max-width: 1022px!important;
+        text-align: center!important;
+    }
+    .whyLyra-layout_text-wrap-dsc{
+        width: 814px!important;
+        text-align: center!important;
+    }
+}
