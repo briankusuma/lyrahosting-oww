@@ -64,6 +64,9 @@
                         border: none;
                         width: 24px;
                         height: 24px;
+                        svg{
+                            min-width: 20px!important;
+                        }
                     }
                 }
             }

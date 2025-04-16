@@ -2669,6 +2669,9 @@
   width: 24px;
   height: 24px;
 }
+.sec-footer .con-footer .footer-layout .brand .form-input button svg {
+  min-width: 20px !important;
+}
 .sec-footer .con-footer .footer-layout_menus {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
