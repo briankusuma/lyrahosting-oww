@@ -46,7 +46,9 @@
                     input{
                         background: transparent;
                         border: none;
-                        width: 100%;                    
+                        width: 100%;
+                        color: white;
+                        height: 100%;                    
                     }
                     input::placeholder {
                         color: rgba(255, 255, 255, 0.48);

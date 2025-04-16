@@ -13,6 +13,7 @@
 @use "cloud-mining.scss";
 @use "anti-ddos.scss";
 @use "about-us.scss";
+@use "data-center.scss";
 
 @use "nav.scss";
 @use "footer";
@@ -49,10 +50,15 @@
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 section{
     width: 100%;
 }
+input:focus-visible{
+    outline: none;
+}
+
 .container{
     width: 100%;
     max-width: 1536px;
@@ -65,7 +71,9 @@ h1{
     font-family: 'Satoshi', sans-serif;
     font-weight: 900;
 }
-
+button{
+    cursor: pointer;
+}
 .ornament-gradiet{
     z-index: -1;
     background-color: #A0F;

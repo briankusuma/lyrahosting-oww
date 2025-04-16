@@ -58,17 +58,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // howmuch slider
 
-const slider = document.getElementById("hashRateSlider");
-const valueBubble = document.getElementById("valueBubble");
+// const slider = document.getElementById("hashRateSlider");
+// const valueBubble = document.getElementById("valueBubble");
 
-function updateBubble() {
-    const value = parseInt(slider.value);
-    valueBubble.innerText = value;
+// function updateBubble() {
+//     const value = parseInt(slider.value);
+//     valueBubble.innerText = value;
     
-    const percent = ((value - slider.min) / (slider.max - slider.min)) * 100;
-    valueBubble.style.left = `calc(${percent}% - 10px)`;
-    valueBubble.style.display = "block";
-}
+//     const percent = ((value - slider.min) / (slider.max - slider.min)) * 100;
+//     valueBubble.style.left = `calc(${percent}% - 10px)`;
+//     valueBubble.style.display = "block";
+// }
 
-slider.addEventListener("input", updateBubble);
-updateBubble();
+// slider.addEventListener("input", updateBubble);
+// updateBubble();
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const selected = document.querySelectorAll(".select-btn");
+
+    selected.forEach(button => {
+        button.addEventListener("click", () => {
+            console.log("hallo")
+            selected.forEach(btn => btn.classList.remove("active"));
+
+            button.classList.add("active");
+            // document.getElementById(button.dataset.tab).classList.add("active");
+        });
+    });
+});

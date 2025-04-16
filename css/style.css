@@ -2148,6 +2148,240 @@
   border: none;
 }
 
+.data-center-favorite .whyLyra-layout_text-title {
+  width: 100%;
+}
+.data-center-favorite .whyLyra-layout_text-wrap-dsc {
+  width: 100%;
+}
+
+.data-center-card_content .content-card {
+  max-width: 100% !important;
+}
+
+.sec-network .con-network {
+  padding-block: 80px;
+}
+.sec-network .con-network .network_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.sec-network .con-network .network_content-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  gap: 64px;
+}
+.sec-network .con-network .network_content-layout .layout-title {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 126px;
+}
+.sec-network .con-network .network_content-layout .layout-title .title_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.sec-network .con-network .network_content-layout .layout-title .title_text h2 {
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112%; /* 71.68px */
+  letter-spacing: -0.64px;
+}
+.sec-network .con-network .network_content-layout .layout-title .title_text span {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+.sec-network .con-network .network_content-layout .layout-title .server-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.sec-network .con-network .network_content-layout .layout-title .server-address .server-address_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+.sec-network .con-network .network_content-layout .layout-title .server-address .server-address_wrapper span {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+.sec-network .con-network .network_content-layout .layout-title .server-address .server-address_wrapper h3 {
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 30.72px */
+  letter-spacing: -0.24px;
+}
+.sec-network .con-network .network_content-layout .layout-form {
+  width: 100%;
+  max-width: 500px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_title h2 {
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 40.96px */
+  letter-spacing: -0.32px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper {
+  margin-top: 48px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .ping {
+  margin-top: 32px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user label {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user input {
+  border-radius: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  height: 56px;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: white;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .button-submit {
+  margin-top: 48px;
+  display: flex;
+  height: 64px;
+  width: 155px;
+  padding: 8px 28px 8px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .button-submit input {
+  background-color: transparent !important;
+  color: white;
+  border-color: transparent !important;
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 20.48px */
+  letter-spacing: 0.16px;
+  height: 64px;
+  width: 100%;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .button-submit svg {
+  min-width: 20px;
+}
+.sec-network .con-network .network_content-megabite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.sec-network .con-network .network_content-megabite .megabite_title h3 {
+  color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+.sec-network .con-network .network_content-megabite .megabite_select {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.sec-network .con-network .network_content-megabite .megabite_select .select-btn {
+  display: flex;
+  height: 48px;
+  padding: 24px 24px 24px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 20.48px */
+  letter-spacing: 0.16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.sec-network .con-network .network_content-megabite .megabite_select .select-btn:hover {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
+  border-right: 2px solid rgb(160, 0, 255);
+  border-left: 2px solid rgb(30, 80, 255);
+  color: white;
+}
+.sec-network .con-network .network_content-megabite .megabite_select .select-btn:hover svg path {
+  stroke-opacity: 1 !important;
+}
+.sec-network .con-network .network_content-megabite .megabite_select .active {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
+  border-right: 2px solid rgb(160, 0, 255);
+  border-left: 2px solid rgb(30, 80, 255);
+  color: white;
+}
+.sec-network .con-network .network_content-megabite .megabite_select .active svg path {
+  stroke-opacity: 1 !important;
+}
+
 .sec-navbar .con-navbar {
   display: flex;
   flex-direction: row;
@@ -2319,6 +2553,8 @@
   background: transparent;
   border: none;
   width: 100%;
+  color: white;
+  height: 100%;
 }
 .sec-footer .con-footer .footer-layout .brand .form-input input::placeholder {
   color: rgba(255, 255, 255, 0.48);
@@ -2401,10 +2637,15 @@
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 section {
   width: 100%;
+}
+
+input:focus-visible {
+  outline: none;
 }
 
 .container {
@@ -2418,6 +2659,10 @@ section {
 h1 {
   font-family: "Satoshi", sans-serif;
   font-weight: 900;
+}
+
+button {
+  cursor: pointer;
 }
 
 .ornament-gradiet {
