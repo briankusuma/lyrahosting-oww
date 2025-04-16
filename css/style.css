@@ -2183,9 +2183,9 @@
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: stretch;
-  gap: 126px;
+  height: 100%;
 }
 .sec-network .con-network .network_content-layout .layout-title .title_text {
   display: flex;
@@ -2263,8 +2263,9 @@
   display: flex;
   flex-direction: column;
 }
-.sec-network .con-network .network_content-layout .layout-form .form_wrapper .ping {
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .gap {
   margin-top: 32px;
+  width: 100%;
 }
 .sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user {
   display: flex;
@@ -2280,7 +2281,8 @@
   line-height: 160%; /* 25.6px */
   letter-spacing: 0.16px;
 }
-.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user input {
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user input,
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user select {
   border-radius: 100px;
   border: 2px solid rgba(255, 255, 255, 0.04);
   background: rgba(255, 255, 255, 0.05);
@@ -2292,6 +2294,14 @@
   flex-shrink: 0;
   align-self: stretch;
   color: white;
+}
+.sec-network .con-network .network_content-layout .layout-form .form_wrapper .input_user select {
+  color: rgba(255, 255, 255, 0.48) !important;
+  appearance: none; /* Hilangkan default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: rgba(255, 255, 255, 0.05) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="white" stroke-opacity="0.48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat right 24px center;
+  background-size: 20px;
 }
 .sec-network .con-network .network_content-layout .layout-form .form_wrapper .button-submit {
   margin-top: 48px;
@@ -2380,6 +2390,94 @@
 }
 .sec-network .con-network .network_content-megabite .megabite_select .active svg path {
   stroke-opacity: 1 !important;
+}
+
+.btn-subscibe {
+  padding: 4px 28px 4px 32px !important;
+}
+.btn-subscibe input {
+  border: none !important;
+  background-color: transparent !important;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%; /* 20.48px */
+  letter-spacing: 0.16px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.form-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.form-subscribe input[type=email] {
+  display: flex;
+  width: 604px;
+  height: 56px;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.48);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+  color: white;
+}
+
+.proxy {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.proxy .server-address {
+  justify-content: flex-start !important;
+  gap: 24px;
+}
+.proxy .server-address .socialmedia:hover svg path {
+  fill: rgb(24, 119, 242);
+}
+
+.con-reverse {
+  padding-bottom: 128px !important;
+}
+
+.form-reverse {
+  margin-top: unset !important;
+}
+.form-reverse .subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.checkbox_user {
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+.checkbox_user label {
+  font-size: 16px !important;
+}
+.checkbox_user input[type=checkbox] {
+  accent-color: white; /* untuk warna saat dicentang (optional) */
+  background-color: transparent !important;
+  border: 2px solid rgba(255, 255, 255, 0.48) !important;
+  -webkit-appearance: checkbox; /* untuk tampilannya mengikuti style default browser */
 }
 
 .sec-navbar .con-navbar {
@@ -2644,7 +2742,8 @@ section {
   width: 100%;
 }
 
-input:focus-visible {
+input:focus-visible,
+select:focus-visible {
   outline: none;
 }
 
@@ -2661,8 +2760,23 @@ h1 {
   font-weight: 900;
 }
 
-button {
+button,
+.btn {
   cursor: pointer;
+  display: flex;
+  padding: 21px 28px 21px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 128%;
+  letter-spacing: 0.16px;
+  border: none;
 }
 
 .ornament-gradiet {

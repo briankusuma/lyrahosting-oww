@@ -1,0 +1,88 @@
+.btn-subscibe{
+    padding: 4px 28px 4px 32px!important;
+    input{
+        border: none!important;
+        background-color: transparent!important;
+        height: 100%;
+        width: 100%;
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 128%; /* 20.48px */
+        letter-spacing: 0.16px;
+        height: 56px;
+        cursor: pointer;
+    }
+}
+.form-subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    input[type="email"]{
+        display: flex;
+        width: 604px;
+        height: 56px;
+        padding: 8px 24px;
+        align-items: center;
+        gap: 8px;
+        border-radius: 100px;
+        border: 2px solid rgba(255, 255, 255, 0.04);
+        background: rgba(255, 255, 255, 0.05);
+        color: rgba(255, 255, 255, 0.48);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+        color: white;
+    }
+}
+.proxy{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .server-address{
+        justify-content: flex-start!important;
+        gap: 24px;
+        .socialmedia:hover{
+            svg{
+                path{
+                    fill: rgba(24, 119, 242, 1);
+                }
+            }
+        }
+    }
+}
+.con-reverse{
+    padding-bottom: 128px!important;
+}
+.form-reverse{
+    margin-top: unset!important;
+    .subject{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+.checkbox_user{
+    flex-direction: row!important;
+    align-items: center!important;
+    gap: 8px!important;
+    label{
+        font-size: 16px!important;
+    }
+    input[type="checkbox"]{
+        accent-color: white; /* untuk warna saat dicentang (optional) */
+        background-color: transparent!important;
+        border: 2px solid rgba(255, 255, 255, 0.48)!important;
+        -webkit-appearance: checkbox; /* untuk tampilannya mengikuti style default browser */
+    }
+}
+
