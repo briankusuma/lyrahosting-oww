@@ -120,3 +120,43 @@
         }
     }
 }
+
+.form-input{
+    margin-bottom: 120px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.05);
+    height: 56px;
+    padding: 8px 24px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    input{
+        background: transparent;
+        border: none;
+        width: 100%;
+        color: white;
+        height: 100%;                    
+    }
+    input::placeholder {
+        color: rgba(255, 255, 255, 0.48);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+    }
+    button{
+        background: transparent;
+        border: none;
+        width: 24px;
+        height: 24px;
+        svg{
+            min-width: 20px!important;
+        }
+    }
+}
