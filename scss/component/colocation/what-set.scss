@@ -1,0 +1,35 @@
+.whatset-layout{
+    .whyLyra-layout_text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end!important;
+        gap: 64px;
+        .whyLyra-layout_text-title{
+            max-width: unset!important;
+        }
+    }
+}
+
+.fraction-cost{
+    .content-started_solution{
+        .solution_wrap{
+            align-items: flex-start!important;
+            svg{
+                min-width: 32px;
+            }
+        }
+    }
+}
+
+.pricing-colocation_title{
+    width: 395px!important;
+}
+.grid_pricing{
+    .feature-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

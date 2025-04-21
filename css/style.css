@@ -2491,6 +2491,72 @@
   justify-content: space-between !important;
 }
 
+.content_colocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content_colocation .content-started_title {
+  text-align: center !important;
+  max-width: 1022px !important;
+}
+.content_colocation .content-started_dsc {
+  text-align: center !important;
+  max-width: 812px !important;
+}
+
+.colocation-btn_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin-top: 64px;
+}
+.colocation-btn_wrap .btn-colocation {
+  width: 180px;
+}
+.colocation-btn_wrap p {
+  color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+
+.whatset-layout .whyLyra-layout_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end !important;
+  gap: 64px;
+}
+.whatset-layout .whyLyra-layout_text .whyLyra-layout_text-title {
+  max-width: unset !important;
+}
+
+.fraction-cost .content-started_solution .solution_wrap {
+  align-items: flex-start !important;
+}
+.fraction-cost .content-started_solution .solution_wrap svg {
+  min-width: 32px;
+}
+
+.pricing-colocation_title {
+  width: 395px !important;
+}
+
+.grid_pricing .feature-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .sec-navbar .con-navbar {
   display: flex;
   flex-direction: row;

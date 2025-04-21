@@ -1,0 +1,35 @@
+.content_colocation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .content-started_title{
+        text-align: center!important;
+        max-width: 1022px!important;
+    }
+    .content-started_dsc{
+        text-align: center!important;
+        max-width: 812px!important;
+    }
+}
+.colocation-btn_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 64px;
+    .btn-colocation{
+        width: 180px;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.72);
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+    }
+}
