@@ -8,6 +8,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 100%;
             .discover-layout_text{
                 @extend .discover-layout;
                 width: 100%;
@@ -185,4 +186,36 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 600px){
+    .con-discover{
+        .discover-layout{
+            .discover_title{
+                font-size: 32px;
+            }
+        }
+        .discover-tab{
+            .discover-tab-head{
+                flex-direction: column!important;
+                border-radius: 30px!important;
+                width: 100%;
+                .discover-tab-head_btn{
+                    width: 100%;
+                }
+            }
+            .discover-tab-body{
+                width: 100%;
+                flex-direction: column!important;
+                .discover-tab-body_image{
+                    width: 100%!important;
+                    img{
+                        width: 100%!important;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
 }

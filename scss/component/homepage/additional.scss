@@ -91,3 +91,25 @@
     top: 2214px;
     z-index: -1;
 }
+
+
+@media (max-width: 768px) {
+    .additional-layout{
+        flex-direction: column!important;
+        padding: 40px 24px 40px 24px!important;
+        gap: 64px!important;
+        &_img{
+            img{
+                width: 100%!important;
+            }
+
+        }
+    }
+    .ornament-gradiet-additional-1{
+        display: none;
+    }
+    
+    .ornament-gradiet-additional-2{
+        display: none;
+    }
+}

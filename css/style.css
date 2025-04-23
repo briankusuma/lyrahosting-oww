@@ -99,6 +99,42 @@
 @media only screen and (max-width: 600px) {
   .con-hero {
     flex-direction: column;
+    padding-block: 40px !important;
+    padding-inline: 0px !important;
+  }
+  .con-hero .hero-layout {
+    flex-direction: column !important;
+  }
+  .con-hero .hero-layout_img {
+    height: 500px !important;
+    overflow: hidden !important;
+  }
+  .con-hero .hero-layout_img img {
+    height: 500px !important;
+    top: 0 !important;
+    right: -200px !important;
+  }
+  .con-hero .hero-layout_text-display {
+    font-size: 40px !important;
+  }
+  .con-hero .hero-layout_text-button .button-hero {
+    width: 100% !important;
+  }
+  .con-hero .hero-layout_text {
+    padding-inline: 20px;
+  }
+  .con-hero .hero-sponsore {
+    padding-inline: 20px;
+  }
+  .con-hero .hero-sponsore .hero-sponsore_brand {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-column-gap: 20px !important;
+    grid-row-gap: 20px !important;
+    justify-content: center !important;
+    justify-items: center !important;
+  }
+  .con-hero .hero-sponsore .hero-sponsore_brand img {
+    width: 100% !important;
   }
 }
 .sec-discover .con-discover {
@@ -111,6 +147,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .sec-discover .con-discover .discover-layout .discover-layout_text {
   width: 100%;
@@ -271,6 +308,30 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .con-discover .discover-layout .discover_title, .sec-discover .con-discover .discover-layout .discover-layout_text .discover_title {
+    font-size: 32px;
+  }
+  .con-discover .discover-tab .discover-tab-head {
+    flex-direction: column !important;
+    border-radius: 30px !important;
+    width: 100%;
+  }
+  .con-discover .discover-tab .discover-tab-head .discover-tab-head_btn {
+    width: 100%;
+  }
+  .con-discover .discover-tab .discover-tab-body {
+    width: 100%;
+    flex-direction: column !important;
+  }
+  .con-discover .discover-tab .discover-tab-body .discover-tab-body_image {
+    width: 100% !important;
+  }
+  .con-discover .discover-tab .discover-tab-body .discover-tab-body_image img {
+    width: 100% !important;
+    height: auto;
+  }
+}
 .sec-additional .con-additional {
   padding-block: 80px;
   display: flex;
@@ -359,6 +420,22 @@
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .additional-layout {
+    flex-direction: column !important;
+    padding: 40px 24px 40px 24px !important;
+    gap: 64px !important;
+  }
+  .additional-layout_img img {
+    width: 100% !important;
+  }
+  .ornament-gradiet-additional-1 {
+    display: none;
+  }
+  .ornament-gradiet-additional-2 {
+    display: none;
+  }
+}
 .sec-whyLyra .con-whyLyra {
   padding-block: 80px;
   display: flex;
@@ -480,6 +557,27 @@
   transform: rotate(175.163deg);
 }
 
+@media (max-width: 768px) {
+  .whyLyra-layout {
+    width: 100%;
+  }
+  .whyLyra-layout .whyLyra-layout_text {
+    flex-direction: column !important;
+    gap: 32px !important;
+  }
+  .whyLyra-layout .whyLyra-layout_text-title {
+    font-size: 32px !important;
+  }
+  .whyLyra-layout .whyLyra-layout_content {
+    flex-direction: column !important;
+  }
+  .whyLyra-layout .whyLyra-layout_content .content-card {
+    padding: 28px 20px 20px 20px !important;
+  }
+  .whyLyra-layout .whyLyra-layout_content .content-card .content-card_title {
+    font-size: 24px !important;
+  }
+}
 .sec-lyrahosting {
   position: relative;
 }
@@ -574,6 +672,30 @@
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .con-lyrahosting .lyrahosting-layout .lyrahosting_title {
+    font-size: 32px !important;
+  }
+  .con-lyrahosting .lyrahosting-layout .lyrahosting_dsc {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 16px;
+  }
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo {
+    flex-direction: column !important;
+  }
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo .logo-payment,
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo .logo-crypto {
+    align-items: center !important;
+  }
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo .logo-payment img,
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo .logo-crypto img {
+    width: 25% !important;
+  }
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo .logo-payment div,
+  .con-lyrahosting .lyrahosting-layout .lyrahosting-layout_logo .logo-crypto div {
+    justify-content: center !important;
+  }
+}
 .sec-lightning .con-lightning {
   padding-block: 80px;
   display: flex;
@@ -616,6 +738,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .sec-lightning .con-lightning .lightning-tab-head {
   flex-wrap: wrap;
@@ -706,6 +829,25 @@
   height: 480px;
 }
 
+@media (max-width: 768px) {
+  .con-lightning .lightning-layout_text .lightning_title {
+    font-size: 32px !important;
+  }
+  .con-lightning .lightning-layout_text .lightning_dsc {
+    font-size: 16px !important;
+  }
+  .con-lightning .lightning-tab-body {
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .con-lightning .lightning-tab-body .lightning-tab-body_image {
+    width: 100% !important;
+  }
+  .con-lightning .lightning-tab-body .lightning-tab-body_image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 .sec-faq {
   position: relative;
 }
@@ -789,6 +931,18 @@
   justify-content: space-between;
   cursor: pointer;
 }
+.sec-faq .con-faq .faq-container .faq-item_question .icon {
+  display: flex;
+  width: 48px;
+  min-width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
+}
 .sec-faq .con-faq .faq-container .faq-item_answer {
   color: rgba(255, 255, 255, 0.72);
   font-family: Satoshi;
@@ -824,6 +978,31 @@
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .con-faq .faq-content-body {
+    flex-direction: column !important;
+    gap: 48px;
+  }
+  .con-faq .faq-content-body .faq-content-body_text .content-faq_title {
+    font-size: 32px;
+  }
+  .con-faq .faq-content-body .faq-content-body_text .content-faq_dsc {
+    font-size: 16px;
+  }
+  .con-faq .faq-content-body .faq-content-body_image {
+    width: 100% !important;
+  }
+  .con-faq .faq-content-body .faq-content-body_image img {
+    width: 100% !important;
+    height: auto;
+  }
+  .con-faq .faq-container .faq-item_question {
+    font-size: 24px !important;
+  }
+  .con-faq .faq-container .faq-item_answer {
+    font-size: 16px !important;
+  }
+}
 .sec-lost {
   position: relative;
 }
@@ -924,6 +1103,15 @@
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .con-lost .lost-layout_card {
+    flex-direction: column !important;
+    gap: 48px !important;
+  }
+  .con-lost .lost_title {
+    font-size: 32px !important;
+  }
+}
 .ornament-gradiet {
   z-index: -1;
   background-color: #A0F;
@@ -2980,7 +3168,20 @@ select:focus-visible {
 
 @media (max-width: 768px) {
   .container {
-    padding-inline: 20px !important;
+    padding-inline: 20px;
+  }
+  .ornament-gradiet,
+  .ornament-gradiet-additional-1,
+  .ornament-gradiet-additional-2,
+  .ornament-gradient-whyLyra,
+  .ornament-gradiet-lyrahosting,
+  .ornament-gradiet-faq-up,
+  .ornament-gradiet-faq-bottom,
+  .ornament-gradiet-lost {
+    display: none;
+  }
+  button {
+    width: 100%;
   }
 }
 h1 {

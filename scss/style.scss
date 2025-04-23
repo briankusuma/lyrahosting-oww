@@ -73,8 +73,23 @@ select:focus-visible{
 }
 @media (max-width: 768px) {
     .container{
-        padding-inline: 20px!important;
+        padding-inline: 20px;
     }
+    .ornament-gradiet,
+    .ornament-gradiet-additional-1,
+    .ornament-gradiet-additional-2,
+    .ornament-gradient-whyLyra,
+    .ornament-gradiet-lyrahosting,
+    .ornament-gradiet-faq-up,
+    .ornament-gradiet-faq-bottom,
+    .ornament-gradiet-lost
+    {
+        display: none;
+    }
+    button{
+        width: 100%;
+    }
+    
 }
 
 h1{

@@ -97,3 +97,30 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 768px) {
+    .con-lyrahosting{
+        .lyrahosting-layout{
+            .lyrahosting_title{
+                font-size: 32px!important;
+            }
+            .lyrahosting_dsc{
+                color: rgba(255, 255, 255, 0.72);
+                font-size: 16px;
+            }
+            .lyrahosting-layout_logo{
+                flex-direction: column!important;
+                .logo-payment,
+                .logo-crypto{
+                    align-items: center!important;
+                    img{
+                        width: 25%!important;
+                    }
+                    div{
+                        justify-content: center!important;
+                    }
+                }
+            }
+        }
+    }
+}

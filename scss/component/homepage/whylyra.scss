@@ -126,3 +126,26 @@
         transform: rotate(175.163deg);
     }
 }
+
+@media (max-width: 768px) {
+    .whyLyra-layout{
+        width: 100%;
+        .whyLyra-layout_text{
+            flex-direction: column!important;
+            gap: 32px!important;
+            &-title{
+                font-size: 32px!important;
+            }
+        }
+        .whyLyra-layout_content{
+            flex-direction: column!important;
+            .content-card{
+                padding: 28px 20px 20px 20px!important;
+                .content-card_title{
+                    font-size: 24px!important;
+                }
+            }
+        }
+    }
+
+}

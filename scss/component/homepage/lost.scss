@@ -101,3 +101,15 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 768px) {
+    .con-lost{
+        .lost-layout_card{
+            flex-direction: column!important;
+            gap: 48px!important;
+        }
+        .lost_title{
+            font-size: 32px!important;
+        }
+    }
+}

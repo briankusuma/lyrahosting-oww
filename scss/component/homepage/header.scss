@@ -111,6 +111,44 @@
 @media only screen and (max-width: 600px){
     .con-hero{
         flex-direction: column;
+        padding-block: 40px!important;
+        padding-inline: 0px!important;
+        .hero-layout{
+            flex-direction: column !important;
+            &_img{
+                height: 500px!important;
+                overflow: hidden!important;
+                img{
+                    height: 500px!important;
+                    top: 0 !important;
+                    right: -200px !important;
+                }
+            }
+            &_text-display{
+                font-size: 40px!important;
+            }
+            &_text-button{
+                .button-hero{
+                    width: 100%!important;
+                }
+            }
+            &_text{
+                padding-inline: 20px;
+            }
+        }
+        .hero-sponsore{
+            padding-inline: 20px;
+            .hero-sponsore_brand{
+                grid-template-columns: repeat(2, 1fr)!important;
+                grid-column-gap: 20px!important;
+                grid-row-gap: 20px!important;
+                justify-content: center!important;
+                justify-items: center!important;
+                img{
+                    width: 100%!important;
+                }
+            }
+        }
     }
 
 
