@@ -2612,6 +2612,11 @@ nav {
   justify-content: space-between;
   position: relative;
 }
+@media (max-width: 768px) {
+  .con-navbar {
+    padding-inline: 20px !important;
+  }
+}
 
 .brand-navbar img {
   height: 32px;
@@ -2889,6 +2894,49 @@ nav {
   min-width: 20px !important;
 }
 
+@media (max-width: 768px) {
+  .con-footer {
+    padding-block: 40px !important;
+    padding-inline: 40px !important;
+  }
+  .con-footer .footer-layout {
+    flex-direction: column !important;
+    gap: 48px;
+  }
+  .con-footer .footer-layout_menus {
+    grid-row-gap: 10px !important;
+    grid-column-gap: 10px !important;
+  }
+  .con-footer .footer-layout_menus .menus-wraper {
+    width: 100% !important;
+  }
+  .con-footer .footer-layout_menus .menus-wraper_item {
+    padding-inline-start: 0px !important;
+  }
+  .con-footer .footer-layout_menus .stamp {
+    align-items: center !important;
+  }
+  .con-footer .footer-layout .brand-dsc {
+    font-size: 14px;
+  }
+  .con-footer .footer-layout .brand .logo-grand-footer img {
+    width: 50px !important;
+  }
+  .con-footer .footer-layout .brand .form-input {
+    flex-direction: column;
+    height: auto;
+    padding: 16px;
+    margin-bottom: 32px !important;
+    margin-top: 32px !important;
+  }
+  .con-footer .footer-layout .brand .form-input input {
+    height: 40px;
+  }
+  .con-footer .footer-layout .brand .form-input button {
+    align-self: flex-end;
+    margin-top: 12px;
+  }
+}
 @font-face {
   font-family: "Satoshi";
   src: url("/assets/font/Satoshi-Variable.woff2") format("woff2"), url("/assets/font/Satoshi-Variable.woff") format("woff"), url("/assets/font/Satoshi-Variable.ttf") format("truetype"), url("/assets/font/Satoshi-Bold.woff2") format("woff2"), url("/assets/font/Satoshi-Bold.woff") format("woff"), url("/assets/font/Satoshi-Bold.ttf") format("truetype"), url("/assets/font/Satoshi-Medium.woff2") format("woff2"), url("/assets/font/Satoshi-Medium.woff") format("woff"), url("/assets/font/Satoshi-Medium.ttf") format("truetype"); /* Legacy fallback */
@@ -2930,6 +2978,11 @@ select:focus-visible {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 20px !important;
+  }
+}
 h1 {
   font-family: "Satoshi", sans-serif;
   font-weight: 900;

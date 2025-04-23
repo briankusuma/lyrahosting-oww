@@ -160,3 +160,60 @@
         }
     }
 }
+
+// ✅ Responsive breakpoint
+@media (max-width: 768px) {
+    .con-footer {
+    padding-block: 40px!important;
+    padding-inline: 40px!important;
+
+    .footer-layout {
+        flex-direction: column !important;
+        gap: 48px;
+
+        &_menus {
+        grid-row-gap: 10px !important;
+        grid-column-gap: 10px !important;
+
+        .menus-wraper {
+            width: 100%!important;
+            &_item{
+                padding-inline-start: 0px!important;
+            }
+        }
+
+
+        .stamp {
+            align-items: center!important;
+        }
+        }
+
+        .brand {
+        &-dsc {
+            font-size: 14px;
+        }
+        .logo-grand-footer{
+            img{
+                width: 50px!important;
+            }
+        }
+        .form-input {
+            flex-direction: column;
+            height: auto;
+            padding: 16px;
+            margin-bottom: 32px!important;
+            margin-top: 32px!important;
+
+            input {
+            height: 40px;
+            }
+
+            button {
+            align-self: flex-end;
+            margin-top: 12px;
+            }
+        }
+        }
+    }
+    }
+}

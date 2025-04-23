@@ -166,6 +166,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    @media (max-width: $breakpoint-mobile) {
+        padding-inline: 20px!important;
+    }
 }
 
 .brand-navbar {
