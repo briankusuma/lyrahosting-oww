@@ -245,58 +245,112 @@
                         As block difficulty and the exchange rates related to each cryptocurrency shift, these figures may vary.</p>        
                 </div>
                 <div class="howmuch-range">
-                    <div class="range_layout">
+
+                <div class="calculator-section">
+                    <div class="slider-card">
+                        <h2>Hash Rate Power</h2>
                         <div class="slider-container">
-                            <div class="slider-label">Hash Rate Power</div>
-                            <div style="position: relative;">
-                                <input type="range" min="2" max="192" step="2" value="104" class="slider" id="hashRateSlider">
-                                <span class="value-bubble" id="valueBubble">104</span>
+                            <div class="value-bubble" id="hashRateValue">104</div>
+                            <div class="slider-track">
+                                <div class="slider-progress" id="hashRateProgress"></div>
+                                <input type="range" min="2" max="192" value="104" class="slider" id="hashRateSlider">
                             </div>
-                            <div class="slider-values">
-                                <span>2</span><span>4</span><span>8</span><span>16</span><span>32</span><span>48</span><span>64</span><span>96</span><span>128</span><span>192</span>
+                            <div class="slider-labels">
+                                <span>2</span>
+                                <span>4</span>
+                                <span>8</span>
+                                <span>16</span>
+                                <span>32</span>
+                                <span>48</span>
+                                <span>64</span>
+                                <span>96</span>
+                                <span>128</span>
+                                <span>192</span>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="slider-card">
+                        <h2>Duration of the Rentals (in months)</h2>
                         <div class="slider-container">
-                            <div class="slider-label">Duration of the Rentals (in months)</div>
-                            <div style="position: relative;">
-                                <input type="range" min="2" max="192" step="2" value="104" class="slider" id="hashRateSlider">
-                                <span class="value-bubble" id="valueBubble">104</span>
+                            <div class="value-bubble" id="durationValue">10</div>
+                            <div class="slider-track">
+                                <div class="slider-progress" id="durationProgress"></div>
+                                <input type="range" min="3" max="60" value="10" class="slider" id="durationSlider">
                             </div>
-                            <div class="slider-values">
-                                <span>2</span><span>4</span><span>8</span><span>16</span><span>32</span><span>48</span><span>64</span><span>96</span><span>128</span><span>192</span>
+                            <div class="slider-labels">
+                                <span>3</span>
+                                <span>6</span>
+                                <span>12</span>
+                                <span>24</span>
+                                <span>36</span>
+                                <span>48</span>
+                                <span>60</span>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="slider-card">
+                        <h2>BTC/USD Rate</h2>
                         <div class="slider-container">
-                            <div class="slider-label">BTC/USD Rate</div>
-                            <div style="position: relative;">
-                                <input type="range" min="2" max="192" step="2" value="104" class="slider" id="hashRateSlider">
-                                <span class="value-bubble" id="valueBubble">104</span>
+                            <div class="value-bubble" id="btcRateValue">120,000</div>
+                            <div class="slider-track">
+                                <div class="slider-progress" id="btcRateProgress"></div>
+                                <input type="range" min="20000" max="220000" value="120000" step="1000" class="slider" id="btcRateSlider">
                             </div>
-                            <div class="slider-values">
-                                <span>2</span><span>4</span><span>8</span><span>16</span><span>32</span><span>48</span><span>64</span><span>96</span><span>128</span><span>192</span>
+                            <div class="slider-labels">
+                                <span>20,000</span>
+                                <span>60,000</span>
+                                <span>100,000</span>
+                                <span>140,000</span>
+                                <span>180,000</span>
+                                <span>220,000</span>
                             </div>
+                        </div>
+                        <div class="note">
                             <p>*By changing the position of the slider, you change the share of the miner. At the same time, the amount of investment and profitability changes. The readings may differ from the real ones due to the dynamic changes in the block difficulty and the exchange rate.</p>
                         </div>
                     </div>
-                    <div class="range_side">
-                        <div class="card">
-                            <h2>Income Summary</h2>
-                            <div class="divider"></div>
-                        
-                            <div class="income-item"><span>Investments:</span><span>2,600 USD</span></div>
-                            <div class="income-item"><span>Maintenance 24h:</span><span>4.45 USD</span></div>
-                            <div class="income-item"><span>Income Month:</span><span>286.80 USD</span></div>
-                            <div class="income-item"><span>Income Year:</span><span>3,489.40 USD</span></div>
-                            <div class="income-item"><span>Income for 3 Years:</span><span>10,468.20 USD</span></div>
-                            <div class="income-item"><span>Income after Halving:</span><span>24,558.40 USD</span></div>
-                        
-                            <div class="divider"></div>
-                        
-                            <p class="info-text">*Lorem ipsum dolor sit amet consectetur. At sit diam dignissim senectus.</p>
-                        
-                            <button class="btn">About Halving</button>
-                        </div>
+
+
+                </div>
+
+                <div class="summary-section">
+                    <h2>Income Summary</h2>
+                    <div class="divider"></div>
+
+                    <div class="summary-item">
+                        <span>Investments:</span>
+                        <span id="investments">2,600 USD</span>
                     </div>
+                    <div class="summary-item">
+                        <span>Maintenance 24h:</span>
+                        <span id="maintenance">4.45 USD</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Income Month:</span>
+                        <span id="incomeMonth">286.80 USD</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Income Year:</span>
+                        <span id="incomeYear">3,489.40 USD</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Income for 3 Years:</span>
+                        <span id="income3Years">10,468.20 USD</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Income after Halving:</span>
+                        <span id="incomeHalving">24,558.40 USD</span>
+                    </div>
+
+                    <div class="note-small">
+                        <p>*Lorem ipsum dolor sit amet consectetur. At sit diam dignissim senectus.</p>
+                    </div>
+
+                    <button class="about-halving-btn gradient-border">About Halving</button>
+                </div>
+
                 </div>
                 <div class="howmuch-button">
                     <span>Reach out to the team at LyraHosting to find out more.</span>
