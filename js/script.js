@@ -182,3 +182,35 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+// navbar
+
+document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menu-toggle")
+    const mobileMenu = document.getElementById("mobile-menu")
+
+    // Toggle mobile menu
+    menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active")
+        mobileMenu.classList.toggle("active")
+    })
+
+    // Close mobile menu when clicking outside
+    document.addEventListener("click", (event) => {
+        const isClickInsideMenu = mobileMenu.contains(event.target)
+        const isClickOnToggle = menuToggle.contains(event.target)
+
+        if (!isClickInsideMenu && !isClickOnToggle && mobileMenu.classList.contains("active")) {
+        menuToggle.classList.remove("active")
+        mobileMenu.classList.remove("active")
+        }
+    })
+
+    // Handle window resize
+    window.addEventListener("resize", () => {
+        if (window.innerWidth > 992 && mobileMenu.classList.contains("active")) {
+        menuToggle.classList.remove("active")
+        mobileMenu.classList.remove("active")
+        }
+    })
+})
