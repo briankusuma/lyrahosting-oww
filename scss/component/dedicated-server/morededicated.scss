@@ -106,3 +106,17 @@
         transform: rotate(175.163deg);
     }
 }
+
+@media (max-width: 768px) {
+
+    .sec-dedicated{
+        .con-dedicated{
+            .dedicated-layout_text-title{
+                font-size: 32px!important;
+            }
+            .dedicated-layout_content{
+                flex-direction: column!important;
+            }
+        }
+    }
+}

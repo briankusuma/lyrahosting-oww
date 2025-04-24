@@ -1993,6 +1993,14 @@
   transform: rotate(175.163deg);
 }
 
+@media (max-width: 768px) {
+  .sec-dedicated .con-dedicated .dedicated-layout_text-title {
+    font-size: 32px !important;
+  }
+  .sec-dedicated .con-dedicated .dedicated-layout_content {
+    flex-direction: column !important;
+  }
+}
 :root {
   --background-color: #0a0a14;
   --card-background: rgba(255, 255, 255, 0.02);
