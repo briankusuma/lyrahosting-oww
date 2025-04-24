@@ -1305,6 +1305,11 @@
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .sec-control .control_title {
+    font-size: 32px !important;
+  }
+}
 .sec-started {
   position: relative;
 }
@@ -1399,6 +1404,18 @@
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .started-content-body {
+    flex-direction: column !important;
+  }
+  .started-content-body .content-started_title {
+    font-size: 32px !important;
+  }
+  .started-content-body .content-started_solution {
+    flex-direction: column !important;
+    gap: 16px;
+  }
+}
 .linux-vps {
   margin-block: 16px;
 }
@@ -3177,7 +3194,8 @@ select:focus-visible {
   .ornament-gradiet-lyrahosting,
   .ornament-gradiet-faq-up,
   .ornament-gradiet-faq-bottom,
-  .ornament-gradiet-lost {
+  .ornament-gradiet-lost,
+  .ornament-gradiet-started-up {
     display: none;
   }
   button {

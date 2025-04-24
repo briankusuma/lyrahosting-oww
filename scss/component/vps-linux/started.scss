@@ -95,3 +95,15 @@
         }
     }
     }
+    @media (max-width: 768px) {
+        .started-content-body{
+            flex-direction: column!important;
+            .content-started_title{
+                font-size: 32px!important;
+            }
+            .content-started_solution{
+                flex-direction: column!important;
+                gap: 16px;
+            }
+        }
+    }

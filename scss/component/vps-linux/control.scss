@@ -69,3 +69,11 @@
         z-index: -1;
     }
 }
+@media (max-width: 768px) {
+    .sec-control{
+        .control_title{
+            font-size: 32px!important;
+        }
+    }
+    
+}
