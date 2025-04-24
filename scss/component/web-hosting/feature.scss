@@ -187,3 +187,20 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .sec-feature{
+        .con-feature{
+            .feature-layout_title{
+                font-size: 32px!important;
+            }
+            .feature-card_number{
+                grid-template-columns: repeat(1, 1fr);
+                .card-feature_pricing-body{
+                    flex-direction: column!important;
+                    gap: 16px;
+                }
+            }
+        }
+    }
+    
+}

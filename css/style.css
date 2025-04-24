@@ -1821,6 +1821,18 @@
   flex-direction: row;
 }
 
+@media (max-width: 768px) {
+  .sec-feature .con-feature .feature-layout_title {
+    font-size: 32px !important;
+  }
+  .sec-feature .con-feature .feature-card_number {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sec-feature .con-feature .feature-card_number .card-feature_pricing-body {
+    flex-direction: column !important;
+    gap: 16px;
+  }
+}
 .bitcoin-hosting-img img {
   margin-top: 100px;
 }
