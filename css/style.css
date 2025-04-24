@@ -2235,6 +2235,17 @@
   top: -150px !important;
 }
 
+@media (max-width: 768px) {
+  .sec-howmuch .con-howmuch .howmuch-text_title {
+    font-size: 32px !important;
+  }
+  .sec-howmuch .con-howmuch .howmuch-range {
+    flex-direction: column !important;
+  }
+  .sec-howmuch .con-howmuch .howmuch-range .slider-labels span {
+    font-size: 10px !important;
+  }
+}
 .ddos-feature_layout {
   width: 100%;
 }
