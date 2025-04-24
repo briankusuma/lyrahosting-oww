@@ -88,3 +88,22 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .sec-lost{
+        .con-lost{
+            .lost-content{
+                .lost-content_title{
+                    h1{
+                        font-size: 32px;
+                    }
+                }
+                .lost-content_card{
+                    flex-direction: column;
+                    gap: 48px;
+                }
+            }
+        }
+    }
+
+}

@@ -242,3 +242,30 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .sec-network{
+        .con-network{
+            .network_content{
+                .title_text{
+                    h2{
+                        font-size: 40px!important;
+                    }
+                }
+                .network_content-layout,
+                .megabite_select{
+                    flex-direction: column;
+                }
+                // .server-address{
+                //     flex-direction: column;
+                // }
+                .data-center_address{
+                    flex-direction: column!important;
+                }
+                .subject{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    
+}

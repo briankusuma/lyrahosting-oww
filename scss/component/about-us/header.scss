@@ -4,13 +4,15 @@
         position: absolute;
         z-index: -1;
         top: -100px!important;
-        right: -200px!important;
+        right: -200px;
     }
 
 }
+
 .con-constanly{
 padding-top: 0px!important;
 }
+
 .about-us_constanly{
     display: flex;
     flex-direction: column!important;
@@ -20,7 +22,30 @@ padding-top: 0px!important;
         text-align: center!important;
     }
     .whyLyra-layout_text-wrap-dsc{
-        width: 814px!important;
+        width: 814px;
         text-align: center!important;
     }
 }
+
+
+@media (max-width: 768px) {
+    .about-us_img{
+        img{
+            width: 1000px;
+            position: absolute;
+            z-index: -1;
+            top: -100px!important;
+            right: -200px;
+            left: -250px!important;
+        }
+    
+    }
+    .about-us_constanly{
+        width: 100%;
+        .whyLyra-layout_text-wrap-dsc{
+            width: 100%;
+        }
+    }
+
+}
+

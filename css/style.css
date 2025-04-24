@@ -1830,7 +1830,7 @@
   }
   .sec-feature .con-feature .feature-card_number .card-feature_pricing-body {
     flex-direction: column !important;
-    gap: 16px;
+    gap: 32px;
   }
 }
 .bitcoin-hosting-img img {
@@ -2318,7 +2318,7 @@
   position: absolute;
   z-index: -1;
   top: -100px !important;
-  right: -200px !important;
+  right: -200px;
 }
 
 .con-constanly {
@@ -2335,10 +2335,26 @@
   text-align: center !important;
 }
 .about-us_constanly .whyLyra-layout_text-wrap-dsc {
-  width: 814px !important;
+  width: 814px;
   text-align: center !important;
 }
 
+@media (max-width: 768px) {
+  .about-us_img img {
+    width: 1000px;
+    position: absolute;
+    z-index: -1;
+    top: -100px !important;
+    right: -200px;
+    left: -250px !important;
+  }
+  .about-us_constanly {
+    width: 100%;
+  }
+  .about-us_constanly .whyLyra-layout_text-wrap-dsc {
+    width: 100%;
+  }
+}
 .sec-lost .con-lost .lost-content {
   display: flex;
   flex-direction: column;
@@ -2422,6 +2438,15 @@
   border: none;
 }
 
+@media (max-width: 768px) {
+  .sec-lost .con-lost .lost-content .lost-content_title h1 {
+    font-size: 32px;
+  }
+  .sec-lost .con-lost .lost-content .lost-content_card {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
 .data-center-favorite .whyLyra-layout_text-title {
   width: 100%;
 }
@@ -2433,6 +2458,11 @@
   max-width: 100% !important;
 }
 
+@media (max-width: 768px) {
+  .feature_title h3 {
+    font-size: 24px !important;
+  }
+}
 .sec-network .con-network {
   padding-block: 80px;
 }
@@ -2666,6 +2696,21 @@
   stroke-opacity: 1 !important;
 }
 
+@media (max-width: 768px) {
+  .sec-network .con-network .network_content .title_text h2 {
+    font-size: 40px !important;
+  }
+  .sec-network .con-network .network_content .network_content-layout,
+  .sec-network .con-network .network_content .megabite_select {
+    flex-direction: column;
+  }
+  .sec-network .con-network .network_content .data-center_address {
+    flex-direction: column !important;
+  }
+  .sec-network .con-network .network_content .subject {
+    flex-direction: column;
+  }
+}
 .btn-subscibe {
   padding: 4px 28px 4px 32px !important;
 }
@@ -2690,10 +2735,12 @@
   flex-direction: column;
   align-items: center;
   gap: 48px;
+  width: 100%;
 }
 .form-subscribe input[type=email] {
   display: flex;
-  width: 604px;
+  width: 100%;
+  max-width: 604px;
   height: 56px;
   padding: 8px 24px;
   align-items: center;
@@ -2821,7 +2868,8 @@
 }
 
 .pricing-colocation_title {
-  width: 395px !important;
+  width: 100%;
+  max-width: 395px !important;
 }
 
 .grid_pricing .feature-title {
@@ -2831,6 +2879,14 @@
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .feature-menu {
+    font-size: 14px !important;
+  }
+  .comparison-table {
+    padding: unset !important;
+  }
+}
 nav {
   width: 100%;
   background-color: transparent;
@@ -3275,6 +3331,11 @@ button,
   background-size: 32px 32px, calc(100% - 64px) 1px, 32px 32px, 1px calc(100% - 64px);
   background-position: top left, top center, top right, center right, bottom right, bottom center, bottom left, center left;
   background-repeat: no-repeat;
+}
+
+.serviceProject-wrap svg,
+.checkmark svg {
+  min-width: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */

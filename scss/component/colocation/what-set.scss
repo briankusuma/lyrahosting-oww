@@ -23,7 +23,8 @@
 }
 
 .pricing-colocation_title{
-    width: 395px!important;
+    width: 100%;
+    max-width: 395px!important;
 }
 .grid_pricing{
     .feature-title{
@@ -32,4 +33,14 @@
         align-items: center;
         justify-content: space-between;
     }
+}
+
+@media (max-width: 768px) {
+    .feature-menu{
+        font-size: 14px!important;
+    }
+    .comparison-table{
+        padding: unset!important;
+    }
+    
 }

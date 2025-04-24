@@ -11,3 +11,12 @@
         max-width: 100%!important;
     }
 }
+
+@media (max-width: 768px) {
+    .feature_title{
+        h3{
+            font-size: 24px!important
+        }
+    }
+    
+}
