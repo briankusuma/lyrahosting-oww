@@ -214,3 +214,24 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 })
+
+const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 992) {
+                        e.preventDefault();
+                        const parent = this.parentElement;
+                        
+                        // Close all other dropdowns
+                        document.querySelectorAll('.dropdown').forEach(dropdown => {
+                            if (dropdown !== parent) {
+                                dropdown.classList.remove('active');
+                            }
+                        });
+                        
+                        // Toggle current dropdown
+                        parent.classList.toggle('active');
+                    }
+                });
+            });
