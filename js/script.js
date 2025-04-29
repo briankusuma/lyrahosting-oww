@@ -217,21 +217,184 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
-            dropdownToggles.forEach(toggle => {
-                toggle.addEventListener('click', function(e) {
-                    if (window.innerWidth <= 992) {
-                        e.preventDefault();
-                        const parent = this.parentElement;
-                        
-                        // Close all other dropdowns
-                        document.querySelectorAll('.dropdown').forEach(dropdown => {
-                            if (dropdown !== parent) {
-                                dropdown.classList.remove('active');
-                            }
-                        });
-                        
-                        // Toggle current dropdown
-                        parent.classList.toggle('active');
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(e) {
+            if (window.innerWidth <= 992) {
+                e.preventDefault();
+                const parent = this.parentElement;
+                
+                // Close all other dropdowns
+                document.querySelectorAll('.dropdown').forEach(dropdown => {
+                    if (dropdown !== parent) {
+                        dropdown.classList.remove('active');
                     }
                 });
-            });
+                
+                // Toggle current dropdown
+                parent.classList.toggle('active');
+            }
+        });
+    });
+
+
+// tab logic
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Find all tab containers on the page
+    const tabContainers = document.querySelectorAll('.sec-discover');
+    
+    // Initialize each tab container separately
+    tabContainers.forEach(function(container) {
+    // Get elements specific to this container
+    const tabButtons = container.querySelectorAll('.tab-btn');
+    const tabContents = container.querySelectorAll('.tab-content');
+    const mobileTabToggle = container.querySelector('.mobile-tab-toggle');
+    const tabHead = container.querySelector('.discover-tab-head');
+    const currentTabText = container.querySelector('.current-tab');
+    
+    // Initialize tabs for this container
+    function initTabs() {
+        tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const tabId = button.getAttribute('data-tab');
+            
+            // Update active tab button within this container
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Find the tab content within this container
+            // Instead of using document.getElementById which searches the whole document
+            const targetContent = container.querySelector(`#${tabId}`);
+            
+            // Update active tab content within this container
+            tabContents.forEach(content => content.classList.remove('active'));
+            if (targetContent) {
+            targetContent.classList.add('active');
+            }
+            
+            // Update mobile dropdown text
+            if (currentTabText) {
+            currentTabText.textContent = button.textContent.trim();
+            }
+            
+            // Close dropdown on mobile after selection
+            if (window.innerWidth <= 768 && tabHead) {
+            tabHead.classList.remove('show');
+            }
+        });
+        });
+    }
+    
+    // Mobile dropdown toggle for this container
+    if (mobileTabToggle && tabHead) {
+        mobileTabToggle.addEventListener('click', () => {
+        tabHead.classList.toggle('show');
+        });
+        
+        // Close dropdown when clicking outside for this container
+        document.addEventListener('click', (event) => {
+        if (window.innerWidth <= 768) {
+            const isClickInsideTabHead = tabHead.contains(event.target);
+            const isClickOnToggle = mobileTabToggle.contains(event.target);
+            
+            if (!isClickInsideTabHead && !isClickOnToggle && tabHead.classList.contains('show')) {
+            tabHead.classList.remove('show');
+            }
+        }
+        });
+    }
+    
+    // Initialize tabs for this container
+    initTabs();
+    });
+    
+    // Handle window resize (global)
+    window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        document.querySelectorAll('.discover-tab-head').forEach(head => {
+        head.classList.remove('show');
+        });
+    }
+    });
+});
+
+// tab logic lightning
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Find all tab containers on the page
+    const tabContainers = document.querySelectorAll('.sec-discover');
+    
+    // Initialize each tab container separately
+    tabContainers.forEach(function(container) {
+    // Get elements specific to this container
+    const tabButtons = container.querySelectorAll('.tab-btns');
+    const tabContents = container.querySelectorAll('.tab-contents');
+    const mobileTabToggle = container.querySelector('.mobile-tab-toggles');
+    const tabHead = container.querySelector('.discover-tab-heads');
+    const currentTabText = container.querySelector('.current-tabs');
+    
+    // Initialize tabs for this container
+    function initTabs() {
+        tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const tabId = button.getAttribute('data-tab');
+            
+            // Update active tab button within this container
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Find the tab content within this container
+            // Instead of using document.getElementById which searches the whole document
+            const targetContent = container.querySelector(`#${tabId}`);
+            
+            // Update active tab content within this container
+            tabContents.forEach(content => content.classList.remove('active'));
+            if (targetContent) {
+            targetContent.classList.add('active');
+            }
+            
+            // Update mobile dropdown text
+            if (currentTabText) {
+            currentTabText.textContent = button.textContent.trim();
+            }
+            
+            // Close dropdown on mobile after selection
+            if (window.innerWidth <= 768 && tabHead) {
+            tabHead.classList.remove('show');
+            }
+        });
+        });
+    }
+    
+    // Mobile dropdown toggle for this container
+    if (mobileTabToggle && tabHead) {
+        mobileTabToggle.addEventListener('click', () => {
+        tabHead.classList.toggle('show');
+        });
+        
+        // Close dropdown when clicking outside for this container
+        document.addEventListener('click', (event) => {
+        if (window.innerWidth <= 768) {
+            const isClickInsideTabHead = tabHead.contains(event.target);
+            const isClickOnToggle = mobileTabToggle.contains(event.target);
+            
+            if (!isClickInsideTabHead && !isClickOnToggle && tabHead.classList.contains('show')) {
+            tabHead.classList.remove('show');
+            }
+        }
+        });
+    }
+    
+    // Initialize tabs for this container
+    initTabs();
+    });
+    
+    // Handle window resize (global)
+    window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        document.querySelectorAll('.discover-tab-heads').forEach(head => {
+        head.classList.remove('show');
+        });
+    }
+    });
+});
