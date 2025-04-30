@@ -1,3 +1,8 @@
 .linux-vps{
-    margin-block: 16px;
+    margin-block: 0px;
+}
+@media (max-width: 768px) {
+    .linux-vps{
+        margin-block: 7.5px;
+    }
 }
