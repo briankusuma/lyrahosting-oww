@@ -1310,6 +1310,12 @@
   .con-lost .lost_title {
     font-size: 32px !important;
   }
+  .con-lost .lost-layout_card {
+    width: 100% !important;
+  }
+  .con-lost .content-card {
+    width: 100% !important;
+  }
 }
 .ornament-gradiet {
   z-index: -1;
@@ -3122,7 +3128,7 @@ nav {
 .menus-navbar {
   display: flex;
   align-items: center;
-  gap: 48px;
+  justify-content: space-between;
 }
 @media (max-width: 992px) {
   .menus-navbar {
@@ -3141,11 +3147,16 @@ nav {
     display: flex;
   }
 }
+@media (min-width: 1440px) {
+  .menus-navbar {
+    gap: 48px;
+  }
+}
 
 .menus-navbar-menus {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
 }
 @media (max-width: 992px) {
   .menus-navbar-menus {
@@ -3239,7 +3250,12 @@ nav {
 
 .nav-item {
   position: relative;
-  margin: 0 10px;
+  margin: 0 0px;
+}
+@media (min-width: 1440px) {
+  .nav-item {
+    margin: 0 10px;
+  }
 }
 
 .nav-item a {
