@@ -3130,7 +3130,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 992px) {
+@media (max-width: 1175px) {
   .menus-navbar {
     display: none;
     position: absolute;
@@ -3158,7 +3158,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 992px) {
+@media (max-width: 1175px) {
   .menus-navbar-menus {
     flex-direction: column;
     align-items: flex-start;
@@ -3185,7 +3185,7 @@ nav {
 .link-menu:hover {
   color: #ffffff;
 }
-@media (max-width: 992px) {
+@media (max-width: 1175px) {
   .link-menu {
     padding: 8px 0;
     width: 100%;
@@ -3210,7 +3210,7 @@ nav {
   letter-spacing: 0.16px;
   border: none;
 }
-@media (max-width: 992px) {
+@media (max-width: 1175px) {
   .button-navbar {
     margin: 20px 0 0 0;
     width: 100%;
@@ -3222,7 +3222,7 @@ nav {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 992px) {
+@media (max-width: 1175px) {
   .navbar-hamburger {
     display: block;
   }
@@ -3332,7 +3332,7 @@ nav {
   transform: rotate(180deg);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1175px) {
   .nav-items {
     position: fixed;
     top: 70px;

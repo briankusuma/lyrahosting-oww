@@ -142,7 +142,7 @@
 //     }
 // }
 $breakpoint-mobile: 768px;
-$breakpoint-tablet: 992px;
+$breakpoint-tablet: 1175px;
 $breakpoint-desktop: 1200px;
 
 $color-background: #121212;
@@ -392,7 +392,7 @@ nav {
             transform: rotate(180deg);
         }
         
-@media (max-width: 992px) {
+@media (max-width: $breakpoint-tablet) {
             .nav-items {
                 position: fixed;
                 top: 70px;
