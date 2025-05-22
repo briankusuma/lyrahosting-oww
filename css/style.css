@@ -1796,7 +1796,7 @@
 .sec-hero .con-hero .hero-layout_img {
   position: relative;
 }
-.sec-hero .con-hero .hero-layout_img img {
+.sec-hero .con-hero .hero-layout_img .img-header {
   width: 1000px;
   position: absolute;
   z-index: -1;
