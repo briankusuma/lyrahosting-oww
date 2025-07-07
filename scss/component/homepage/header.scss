@@ -69,8 +69,9 @@
             }
             &_img{
                 position: relative;
-                img{
-                    width: 1200px;
+                img, 
+                .hero-images{
+                    width: 1400px;
                     position: absolute;
                     z-index: -1;
                     top: -200px;

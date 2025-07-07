@@ -12,9 +12,10 @@
             &_text{
                 display: flex;
                 flex-direction: row;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
                 gap: 64px;
+                width: 100%;
                 &-title{
                     color: #FFF;
                     font-family: Satoshi;

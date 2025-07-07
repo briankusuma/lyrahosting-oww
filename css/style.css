@@ -61,8 +61,9 @@
 .sec-hero .con-hero .hero-layout_img {
   position: relative;
 }
-.sec-hero .con-hero .hero-layout_img img {
-  width: 1200px;
+.sec-hero .con-hero .hero-layout_img img,
+.sec-hero .con-hero .hero-layout_img .hero-images {
+  width: 1400px;
   position: absolute;
   z-index: -1;
   top: -200px;
@@ -531,9 +532,10 @@
 .sec-whyLyra .con-whyLyra .whyLyra-layout_text {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 64px;
+  width: 100%;
 }
 .sec-whyLyra .con-whyLyra .whyLyra-layout_text-title {
   color: #FFF;
@@ -2528,7 +2530,7 @@
   position: absolute;
   z-index: -1;
   top: -100px !important;
-  right: -200px;
+  right: -200px !important;
 }
 
 .con-constanly {
@@ -3624,7 +3626,7 @@ select:focus-visible {
   width: 100%;
   max-width: 1536px;
   display: flex;
-  padding-inline: 104px;
+  padding-inline: 6.5rem;
   margin: auto;
 }
 
