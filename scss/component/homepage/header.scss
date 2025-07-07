@@ -63,6 +63,9 @@
                             font-weight: 900;
                             line-height: 128%;
                             letter-spacing: 0.16px;
+                            &:hover{
+                                background: linear-gradient(78deg, rgba(30, 80, 255, 0.7) -12.1%, rgba(170, 0, 255, 0.7) 80.03%);
+                            }
                         }
                     }
                 }

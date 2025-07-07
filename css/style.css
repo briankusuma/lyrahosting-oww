@@ -58,6 +58,9 @@
   line-height: 128%;
   letter-spacing: 0.16px;
 }
+.sec-hero .con-hero .hero-layout_text-button .button-hero:hover {
+  background: linear-gradient(78deg, rgba(30, 80, 255, 0.7) -12.1%, rgba(170, 0, 255, 0.7) 80.03%);
+}
 .sec-hero .con-hero .hero-layout_img {
   position: relative;
 }
