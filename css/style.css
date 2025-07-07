@@ -3631,7 +3631,7 @@ select:focus-visible {
   width: 100%;
   max-width: 1536px;
   display: flex;
-  padding-inline: 6.5rem;
+  padding-inline: 6rem;
   margin: auto;
 }
 
