@@ -3692,6 +3692,10 @@ button,
   background-position: top left, top center, top right, center right, bottom right, bottom center, bottom left, center left;
   background-repeat: no-repeat;
 }
+.gradient-border:hover {
+  background: linear-gradient(78deg, #1E50FF -12.1%, #A0F 80.03%);
+  color: #FFF;
+}
 
 .serviceProject-wrap svg,
 .checkmark svg {
